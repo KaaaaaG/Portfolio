@@ -6,31 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KaaaaaG</title>
 
-    <link rel="stylesheet" href="https://KaaaaaG.github.io/Portfolio/reset.css">
-    <link rel="stylesheet" href="https://KaaaaaG.github.io/Portfolio/responsive.css">
-    <link rel="stylesheet" href="https://KaaaaaG.github.io/Portfolio/style.css">
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/responsive.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
 </head>
 <body>
     <header class="header">
         <div class="header-logo">
             <a href="#">
-                <img src="https://github.com/KaaaaaG/Portfolio/blob/main/Images/KaaaaaG_icon.png?raw=true" width="55px" height="55px" alt="logo">
+                <img src="/Images/KaaaaaG_icon.png" width="55px" height="55px" alt="logo">
             </a>
+        </div>
+
+        <div id="drower-toggle" class="nav-btn">
+            <span class="top-line"></span>
+            <span class="mid-line"></span>
+            <span class="btm-line"></span>
         </div>
 
         <nav class="header-nav">
             <ul class="header-list">
                 <li class="header-item">
-                    <a href="#about">ABOUT</a> 
+                    <a href="#about"><span class="for-border">ABOUT</span></a> 
                 </li>
                 <li class="header-item">
-                    <a href="#works">WORKS</a>
+                    <a href="#works"><span class="for-border">WORKS</span></a>
                 </li>
                 <li class="header-item">
-                    <a href="mailto:yusuke11004455ggmail.com">CONTACT</a>
+                    <a href="mailto:yusuke11004455ggmail.com"><span class="for-border">CONTACT</span></a>
                 </li>
             </ul>
         </nav>
@@ -40,26 +48,45 @@
     <section class="intro">
         <div class="container">
             <strong class="kaaaaag">KaaaaaG</strong>
-            <!--<p class="intro-text">text text text texttext texttext texttext texttext texttext texttext texttext texttext texttext texttext texttext texttext texttext text</p>-->
         </div>
     </section>
 
+    
 
     
     <section class="section" id="about">
         <div class="container">
             <h1 class="section-title">ABOUT</h1>
             <figure class="about-contents">
-                <img class="about-img" src="https://github.com/KaaaaaG/Portfolio/blob/main/Images/sca-34.jpg?raw=true" width="40%" height="40%" alt="picture">
+                <img class="about-img" src="/Images/sca-34.jpg" width="30%" height="30%" alt="picture">
+                <!--<img src="/Images/kamogawa_front.JPG" width="40%" height="40%" alt="">-->
                 <figcaption class="img-caption">
-                    <p>千葉出身の23歳。<br>
-                        現在は埼玉に拠点を置き活動中。<br>
-                        写真、デザイン、コーディングをワンストップで対応。 </p>
+                    <h1>梶　雄亮/YUSUKE KAJI</h1>
+                    <p> 写真、デザイン、コーディングに興味があり絶賛勉強中。</p>
+                     <div class="skill-set">
+                        <div class="pie html">
+                            <i class="fa-brands fa-html5 html"></i>
+                        </div>
+                        <div class="pie css">
+                            <i class="fa-brands fa-css3-alt css"></i>
+                        </div>
+                        <div class="pie js">
+                            <i class="fa-brands fa-js js"></i>
+                        </div>
+                        <div class="pie ai">
+                            <p class="adobe-logo ai">Ai</p>
+                        </div>
+                        <div class="pie ps">
+                            <p class="adobe-logo ps">Ps</p>
+                        </div>
+                    </div>
                 </figcaption>
             </figure>
         </div>
 
     </section>
+
+    
 
 
     <section class="section" id="works">
@@ -67,37 +94,129 @@
             <h1 class="section-title">WORKS</h1>
             <ul class="grid grid-col-3">
                 <li class="grid-items">
-                    <a href="#"><img src="https://github.com/KaaaaaG/Portfolio/blob/main/Images/saber.JPG?raw=true" alt="image"></a>
+                    <figure class="works-contents">
+                        <img src="/Images/light.JPG" alt="image">
+                        <figcaption class="works-caption">
+                            <h3 class="category">Photo</h3>
+                            <p>Mar.2020 in Chiba</p>
+                        </figcaption>
+                    </figure>
                 </li>
                 <li class="grid-items">
-                    <a href="#"><img src="https://github.com/KaaaaaG/Portfolio/blob/main/Images/oagari.JPG?raw=true" alt="image"></a>
+                    <figure class="works-contents">
+                        <img src="/Images/Odaka.JPG" alt="image">
+                        <figcaption class="works-caption">
+                            <h3 class="category">Photo</h3>
+                            <p>Jun.2021 in Chiba</p>
+                        </figcaption>
+                    </figure>
                 </li>
                 <li class="grid-items">
-                    <a href="#"><img src="https://github.com/KaaaaaG/Portfolio/blob/main/Images/light.JPG?raw=true" alt="image"></a>
+                    <figure class="works-contents">
+                        <img src="/Images/saber.JPG" alt="image">
+                        <figcaption class="works-caption">
+                            <h3 class="category">Photo</h3>
+                            <p>Aug.2022 in Kyoto</p>
+                        </figcaption>
+                    </figure>
                 </li>
                 <li class="grid-items">
-                    <a href="#"><img src="https://github.com/KaaaaaG/Portfolio/blob/main/Images/Odaka.JPG?raw=true" alt="image"></a>
+                    <figure class="works-contents">
+                        <img src="/Images/oagari.JPG" alt="image">
+                        <figcaption class="works-caption">
+                            <h3 class="category">Photo</h3>
+                            <p>Aug.2022 in Kyoto</p>
+                        </figcaption>
+                    </figure>
                 </li>
                 <li class="grid-items">
-                    <a href="#"><img src="https://github.com/KaaaaaG/Portfolio/blob/main/Images/ponto_chouchin.JPG?raw=true" alt="image"></a>
+                    <figure class="works-contents">
+                        <img src="/Images/ponto_chouchin.JPG" alt="image">
+                        <figcaption class="works-caption">
+                            <h3 class="category">Photo</h3>
+                            <p>Aug.2022 in Kyoto</p>
+                        </figcaption>
+                    </figure>
                 </li>
                 <li class="grid-items">
-                    <a href="#"><img src="https://github.com/KaaaaaG/Portfolio/blob/main/Images/beer.JPG?raw=true" alt="image"></a>
+                    <figure class="works-contents">
+                        <img src="/Images/beer.JPG" alt="image">
+                        <figcaption class="works-caption">
+                            <h3 class="category">Photo</h3>
+                            <p>Aug.2022 in Kyoto</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="grid-items">
+                    <figure class="works-contents">
+                        <img src="/Images/LITTLE-REBEL.png" alt="image">
+                        <figcaption class="works-caption">
+                            <h3 class="category">Illustration</h3>
+                            <p>Mar.2021</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="grid-items">
+                    <figure class="works-contents">
+                        <img src="/Images/neko_logo.png" alt="image">
+                        <figcaption class="works-caption">
+                            <h3 class="category">Illustration</h3>
+                            <p>Dec.2022</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="grid-items">
+                    <figure class="works-contents">
+                        <img src="/Images/ichigo.png" alt="image">
+                        <figcaption class="works-caption">
+                            <h3 class="category">Illustration</h3>
+                            <p>Dec.2022</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="grid-items">
+                    <figure class="works-contents">
+                        <img src="/Images/fly-me-to-the-moon.png" alt="image">
+                        <figcaption class="works-caption">
+                            <h3 class="category">Illustration</h3>
+                            <p>May.2021</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="grid-items">
+                    <figure class="works-contents">
+                        <img src="/Images/odaka_logo.png" alt="image">
+                        <figcaption class="works-caption">
+                            <h3 class="category">Illustration</h3>
+                            <p>Jul.2021</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="grid-items">
+                    <figure class="works-contents">
+                        <img src="/Images/dramatic-mellow.png" alt="image">
+                        <figcaption class="works-caption">
+                            <h3 class="category">Illustration</h3>
+                            <p>Sep.2021</p>
+                        </figcaption>
+                    </figure>
                 </li>
             </ul>
+            <div class="list-btn">
+                <span class="fa fa-angle-down more"></span>
+            </div>
         </div>
     </section>
 
     
     <footer class="footer">
-        <div class="container">
             <div class="footer-left">
                 <ul class="footer-list">
                     <li class="footer-item">
-                        <a href="#" target="_blank"><span class="fa fa-twitter"></span></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
                     </li>
                     <li class="footer-item">
-                        <a href="https://www.instagram.com/kaaaaa_jiiiii/" target="_blank"><span class="fa fa-instagram"></span></a>
+                        <a href="https://www.instagram.com/kaaaaa_jiiiii/" target="_blank"><i class="fab fa-instagram"></i></a>
                     </li>
                     <li class="footer-item">
                         <a href="mailto:yusuke11004455ggmail.com" target="_blank"><span class="fa fa-envelope"></span></a>
@@ -110,12 +229,10 @@
                 </div>
                 
             </div>
-        </div>
     </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <!--自作のJS-->
-    <script src="https://KaaaaaG.github.io/Portfolio/app.js"></script>
+    <script src="/js/app.js"></script>
 </body>
 </html>
