@@ -170,7 +170,7 @@ intro
 */
 .intro{
     text-align: center;
-    background: url(/Images/ink.png) no-repeat;
+    background: url(https://github.com/KaaaaaG/Portfolio/blob/main/Images/ink.png?raw=true) no-repeat;
     background-size: cover;
     background-position: right 35% bottom 15%;
     height: 100vh;
