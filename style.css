@@ -90,8 +90,8 @@ a:hover::after{
     width: 50px;
     height:50px;
     border-radius: 5px;
-    position: absolute;
-    right: 5px;
+    /*position: absolute;
+    right: 5px;*/
     display: none;
     z-index: 9999;
 }
@@ -247,12 +247,12 @@ ABOUT
 }
 
 .pie.html{
-    background-image: radial-gradient(#fff 60%, transparent 61%), conic-gradient(#e34c26 0% 65%, #fff 65% 100%);
+    background-image: radial-gradient(#fff 60%, transparent 61%), conic-gradient(#e34c26 0% 50%, #fff 50% 100%);
 
 }
 
 .pie.css{
-    background-image: radial-gradient(#fff 60%, transparent 61%), conic-gradient(#264de4 0% 55%, #fff 55% 100%);
+    background-image: radial-gradient(#fff 60%, transparent 61%), conic-gradient(#264de4 0% 45%, #fff 55% 100%);
 
 }
 
